@@ -7,9 +7,9 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @CrossOrigin(origins = "*")
-@RequestMapping("/auth")
+@RequestMapping("/")
 public class Controller {
-    @GetMapping("/first")
+    @GetMapping("/")
     public String getName()
     {
             return "Saurav";
